@@ -12,7 +12,6 @@ Private Email Agent is a private AI email assistant that triages your inbox, sum
 
 This repository holds the product definition, the interaction and design system, and the in-progress Flutter MVP.
 
-![Daily brief](mockups/intent/screens/desktop-brief.png)
 
 ## What it does
 
@@ -23,7 +22,6 @@ This repository holds the product definition, the interaction and design system,
 - **Never break a promise.** It detects the commitments you make in email and surfaces them before they become a missed deadline.
 - **Protects you before you send.** Checks for the wrong recipient, a missing attachment, an accidental commitment, or a sensitive detail.
 
-![Decision with evidence](mockups/intent/screens/desktop-decision.png)
 
 ## Private by architecture
 
@@ -37,7 +35,6 @@ Privacy here is enforced by the architecture, not promised in a policy.
 
 The trust and authority model is described in [docs/TRUST_MODEL.md](docs/TRUST_MODEL.md).
 
-![Draft checked before sending](mockups/intent/screens/desktop-draft.png)
 
 ## How it is built
 
