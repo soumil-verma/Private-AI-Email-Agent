@@ -1,0 +1,40 @@
+# Credentials and environment (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+real-mailbox.env
+
+# Private data / fixtures (never commit)
+private-fixtures/
+**/private-fixtures/
+*ground_truth*
+
+# Flutter / Dart build artifacts
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+**/build/
+**/.dart_tool/
+coverage/
+test-results/
+artifacts/
+debug-bundles/
+
+# Node
+node_modules/
+dist/
+
+# Editors / OS
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
